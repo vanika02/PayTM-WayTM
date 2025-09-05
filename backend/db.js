@@ -3,13 +3,16 @@ const mongoose = require('mongoose');
 const { string, Schema } = require('zod');
 
 // connecting to the database
-mongoose.connect('mongodb+srv://23f1000071:ycyk1eg9UMj1nXk0@cluster0.wqytzec.mongodb.net/')
-    .then(() => {
-        console.log('Connected to the database successfully');
-    }).catch((err) => {
-        console.error('Error connecting to the database:', err);
-    });
+async function connectDB() {
+  try {
+    await mongoose.connect(process.env.MONGO_URI); // no quotes, no extra options needed
+    console.log('Connected to the database successfully');
+  } catch (err) {
+    console.error('Error connecting to the database:', err);
+  }
+}
 
+connectDB();
 const db = mongoose.connection;
 
 const user = new mongoose.Schema({
