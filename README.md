@@ -4,28 +4,28 @@ A Paytm-inspired web application that allows users to sign up, log in, manage pr
 
 # Features 
 
--- Signup & Sign In: Secure authentication system with proper form validation.
--- Dashboard: Main user area after login, showing account balance and transaction history.
--- Send Money: Transfer funds to other users registered on the platform.
--- Profile Management: Update personal information easily and securely.
--- Responsive UI: Works on both desktop and mobile devices.
+- Signup & Sign In: Secure authentication system with proper form validation.
+- Dashboard: Main user area after login, showing account balance and transaction history.
+- Send Money: Transfer funds to other users registered on the platform.
+- Profile Management: Update personal information easily and securely.
+- Responsive UI: Works on both desktop and mobile devices.
 
 Tech Stack
 
--- Frontend: React.js, Tailwind CSS, JavaScript
--- Backend: Node.js, Express.js (if applicable)
--- Database: MongoDB
--- Other: JWT for authentication, bcrypt for password hashing
+- Frontend: React.js, Tailwind CSS, JavaScript
+- Backend: Node.js, Express.js (if applicable)
+- Database: MongoDB
+- Other: JWT for authentication, bcrypt for password hashing
 
 ## What I Learned
 
--- Managing React state and handling complex form inputs
+- Managing React state and handling complex form inputs
 
--- Building a secure user authentication system
+- Building a secure user authentication system
 
--- Creating a responsive UI with Tailwind CSS
+- Creating a responsive UI with Tailwind CSS
 
--- Implementing backend API calls and MongoDB operations
+- Implementing backend API calls and MongoDB operations
 
 # Getting Started
 
