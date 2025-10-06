@@ -26,3 +26,24 @@ npm run dev
 http://localhost:5000
 ```
 
+# Frontend Setup
+
+## 1. Navigate to frontend directory
+```bash
+cd frontend
+```
+
+## Install dependencies
+```bash
+npm install
+```
+
+## Start the development server
+```bash
+npm run dev
+```
+
+## Access the frontend here
+```bash
+VITE_API_URL=http://localhost:5000
+ ```
